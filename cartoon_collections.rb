@@ -22,7 +22,7 @@ def find_the_cheese(array)
   counter = 0
   counter2 = 0
   if(array.include?(cheese_types))
-    while counter < cheese_types.length
+/*    while counter < cheese_types.length
       while counter2 < array.length
         if(array[counter2] == cheese_types[counter])
            return "#{cheese_types[counter]}"
@@ -34,5 +34,5 @@ def find_the_cheese(array)
     end
   else
    return nil
-  end
+  end   */
 end

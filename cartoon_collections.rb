@@ -21,7 +21,7 @@ def find_the_cheese(array)
   counter = 0
   while counter < cheese_types.length
     if array.include?(cheese_types[counter]) == true
-       puts "#{cheese_types[counter]}"
+       return "#{cheese_types[counter]}"
     end
     counter += 1
   end

@@ -20,15 +20,19 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   #array.find do |item|
   counter = 0
-#  array[counter].include?(cheese_types))
-   # while counter < cheese_types.length
-   #  while counter < array.length
-         
-#      end
-#    end
-#  else
-#    return nil
-#  end
-  #end
-  
+  counter2 = 0
+  if(array.include?(cheese_types))
+    while counter < cheese_types.length
+      while counter2 < array.length
+        if(array[counter2] == cheese_types[counter])
+           return "#{cheese_types[counter]}"
+           break
+        end
+        counter2 += 1
+      end
+      counter += 1
+    end
+  else
+   return nil
+  end
 end

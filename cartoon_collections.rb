@@ -19,7 +19,16 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   #array.find do |item|
-    array.include?(cheese_types)
+  counter = 0
+  if(array.include?(cheese_types))
+    while counter < cheese_types.length
+      while counter < array.length
+         
+      end
+    end
+  else
+    return nil
+  end
   #end
   
 end

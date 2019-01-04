@@ -20,7 +20,8 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   #array.find do |item|
   counter = 0
-  counter2 = 0
+  while counter < cheese_types.length
+    array.include?(cheese_types[counter])
   array.include?(cheese_types)
 =begin    while counter < cheese_types.length
       while counter2 < array.length

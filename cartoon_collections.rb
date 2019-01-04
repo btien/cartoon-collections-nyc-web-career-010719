@@ -34,6 +34,6 @@ def find_the_cheese(array)
     end
   else
    return nil
-  end   
-=end
+=end  end   
+ end
 end
